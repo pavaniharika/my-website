@@ -1,0 +1,191 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    justify-content: center;
+    display: flex;
+
+}
+#header{
+    background-color: rgb(181, 224, 248);
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+
+}
+#header ul a:hover{
+    background: #83bee0;
+    color: blueviolet;
+}
+.active{
+    background-color: rgb(239, 241, 245);
+}
+#header ul{
+    display:flex;
+    list-style-type:none;
+    gap:12px;
+    justify-content: flex-end;
+    padding-left: 33%;
+}
+#header img{
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+#home{
+    height: 400px;
+    color: rgb(51, 32, 85);
+    background-color:snow;
+;
+ 
+
+}
+
+.carousel-inner{
+    display: flex;
+    height:300px;
+}
+
+#about{
+    background-color: rgb(49, 150, 200);
+    align-content: center;
+    color: rgb(51, 32, 85);
+}
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+    
+
+.service{
+    background-color: rgb(155, 210, 247);
+    height: 900px;
+    color:  rgb(51, 32, 85);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.simg1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(234, 235, 241);
+    color: black;
+    border: 2%;
+    justify-content: flex-end;
+    margin:2%;
+    
+}
+
+
+.simg2{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(230, 232, 241);
+    color: black;
+    border: 2%;
+    justify-content: flex-start;
+    margin:2%; 
+    }
+
+.simg3{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(234, 235, 241);
+    color: black;
+    border: 2%;
+    justify-content: flex-end;
+    margin:2%;
+}
+
+
+.services{
+
+    display: flex;
+    justify-content: end;
+    padding: 0% 2%;
+    
+}
+.contacts{
+    background-color: rgb(49, 150, 200);
+    height: 400px;
+    align-items: end;
+    justify-content:center;
+    color: rgb(51, 32, 85);
+
+}   
+.contact{
+
+    justify-content:center;
+    color: rgb(51, 32, 85);
+}
+
+
+.cmg{
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15%;
+    padding-left:14%;
+    
+}
+
+.ctx{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10%;
+    padding-left: 15%;
+}
+#blog{
+    background-color: rgb(155, 210, 247);
+    height: 400px;
+    color:rgb(155, 210, 247);
+}
+.container-fluid{
+    display: block;
+    
+}
+.container-fluid:hover{
+    display: contents;
+    justify-content:center;
+    height: fit-content;
+
+}
+.blog{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 210, 247);
+    color:rgb(100, 63, 137);
+}
+
+#footer{
+
+    height: 220px;
+    padding-top:8px;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+}
+.footer{
+    
+    gap:60px;
+    display: flex;
+    justify-content: center;
+}
